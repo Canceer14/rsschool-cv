@@ -1,0 +1,15 @@
+body {
+  display: flex;
+  justify-content: center;
+  font-size: 22px;
+}
+.main__name {
+  padding-bottom: 25px;
+}
+.table__colum {
+  text-align: right;
+}
+
+.main_code {
+  background-color: rgba(219, 219, 210, 0.747);
+}
