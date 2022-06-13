@@ -4,14 +4,41 @@
 }
 
 .about {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
   &__photo {
-    &__photo-img {
+    box-shadow: 10px 5px 10px rgba(255, 0, 0, 0.8);
+    &-img {
+      height: 380px;
+      width: 280px;
     }
 
-    &__photo-text {
+    &-text {
+      text-align: center;
+      color: #ff0000;
+      &:hover {
+        color: #ffffff;
+        background-color: #ff000088;
+      }
     }
   }
 
   &__text {
+    min-width: 870px;
+    min-height: 380px;
+    padding: 50px;
+    font-family: "sans-serif";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 24px;
+    box-shadow: 10px 5px 10px rgba(255, 0, 0, 0.8);
+    transition: 2s;
+    color: #ff0000;
+    &:hover {
+      color: #ffffff;
+      background-color: #ff000088;
+    }
   }
 }

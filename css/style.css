@@ -67,3 +67,87 @@
   -webkit-box-shadow: -3px 6px 12px rgba(0, 0, 0, 0.5);
           box-shadow: -3px 6px 12px rgba(0, 0, 0, 0.5);
 }
+
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 50px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.about__photo {
+  -webkit-box-shadow: 10px 5px 10px rgba(255, 0, 0, 0.8);
+          box-shadow: 10px 5px 10px rgba(255, 0, 0, 0.8);
+}
+
+.about__photo-img {
+  height: 380px;
+  width: 280px;
+}
+
+.about__photo-text {
+  text-align: center;
+  color: #ff0000;
+}
+
+.about__photo-text:hover {
+  color: #ffffff;
+  background-color: #ff000088;
+}
+
+.about__text {
+  min-width: 870px;
+  min-height: 380px;
+  padding: 50px;
+  font-family: "sans-serif";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 24px;
+  -webkit-box-shadow: 10px 5px 10px rgba(255, 0, 0, 0.8);
+          box-shadow: 10px 5px 10px rgba(255, 0, 0, 0.8);
+  -webkit-transition: 2s;
+  transition: 2s;
+  color: #ff0000;
+}
+
+.about__text:hover {
+  color: #ffffff;
+  background-color: #ff000088;
+}
+
+.footer__container {
+  min-height: 100px;
+  min-width: 1310px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 50px 0px;
+  -webkit-box-shadow: -3px 6px 12px rgba(0, 0, 0, 0.5);
+          box-shadow: -3px 6px 12px rgba(0, 0, 0, 0.5);
+}
+
+.footer__link-courses {
+  text-decoration: none;
+  font-size: 70px;
+  color: #000000;
+}
+
+.footer__link-mygithub {
+  text-decoration: none;
+  font-size: 70px;
+  color: #000000;
+}
+
+.footer__img {
+  height: 70px;
+}
