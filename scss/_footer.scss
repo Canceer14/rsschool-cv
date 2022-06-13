@@ -25,3 +25,21 @@
     height: 70px;
   }
 }
+
+@keyframes color-change {
+  0% {
+    color: rgb(0, 0, 0);
+  }
+
+  50% {
+    color: rgb(255, 0, 0);
+  }
+
+  100% {
+    color: rgb(255, 255, 255);
+  }
+}
+
+.blink {
+  animation: color-change 3s infinite;
+}
