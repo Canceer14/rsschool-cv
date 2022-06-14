@@ -114,6 +114,12 @@
   color: #ff0000;
 }
 
+.about__text a {
+  text-decoration: none;
+  font-size: 18;
+  color: #000000;
+}
+
 .about__text:hover {
   color: #ffffff;
   background-color: #ff000088;
@@ -187,6 +193,193 @@
 }
 
 .skill__item:hover {
+  color: #ffffff;
+  background-color: #ff000088;
+}
+
+.code-project {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-top: #ff0000 4px solid;
+  border-bottom: #ff0000 4px solid;
+}
+
+.code-project__code {
+  height: 200px;
+  width: 750px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 30px 0px;
+  font-size: 18px;
+  background-color: #08e7a488;
+}
+
+.code-project__code a {
+  text-decoration: none;
+  font-size: 30px;
+  color: #000000;
+}
+
+.code-project__project {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 570px;
+  width: 700px;
+}
+
+.code-project__project a {
+  padding: 15px 0px;
+  text-decoration: none;
+  font-size: 30px;
+  color: #000000;
+}
+
+.code-project__project a img {
+  -webkit-box-shadow: 0px 0px 9px 2px rgba(255, 0, 0, 0.8);
+          box-shadow: 0px 0px 9px 2px rgba(255, 0, 0, 0.8);
+}
+
+.code-project__project h2 {
+  text-align: center;
+  font-size: 15px;
+}
+
+.education {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 30px;
+  padding-bottom: 45px;
+  border-bottom: #ff0000 4px solid;
+}
+
+.education__text {
+  margin-bottom: 20px;
+  font-size: 25px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.education__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.education__link {
+  width: 200px;
+  height: 105px;
+  text-align: center;
+  -webkit-transition: 1s;
+  transition: 1s;
+  font-size: 22px;
+  -webkit-box-shadow: 0px 0px 4px rgba(255, 0, 0, 0.8);
+          box-shadow: 0px 0px 4px rgba(255, 0, 0, 0.8);
+  color: #ff0000;
+}
+
+.education__link:hover {
+  color: #ffffff;
+  background-color: #ff000088;
+}
+
+.language {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 50px;
+}
+
+.language a {
+  width: 720px;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  margin-bottom: 30px;
+  text-decoration: none;
+  font-size: 27px;
+  color: #000000;
+}
+
+.language a video {
+  width: 720px;
+  height: 500px;
+  -webkit-box-shadow: 0px 0px 4px rgba(255, 0, 0, 0.8);
+          box-shadow: 0px 0px 4px rgba(255, 0, 0, 0.8);
+}
+
+.language__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.language__item {
+  width: 200px;
+  height: 130px;
+  text-align: center;
+  -webkit-transition: 1s;
+  transition: 1s;
+  font-size: 22px;
+  -webkit-box-shadow: 0px 0px 4px rgba(255, 0, 0, 0.8);
+          box-shadow: 0px 0px 4px rgba(255, 0, 0, 0.8);
+  color: #ff0000;
+}
+
+.language__item:hover {
   color: #ffffff;
   background-color: #ff000088;
 }
