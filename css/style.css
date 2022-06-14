@@ -1,16 +1,17 @@
 .header__container {
+  min-width: 1310px;
+  min-height: 100px;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  z-index: 80;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  min-width: 1310px;
-  min-height: 100px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -webkit-box-shadow: 10px 5px 10px rgba(255, 0, 0, 0.8);
           box-shadow: 10px 5px 10px rgba(255, 0, 0, 0.8);
   background-color: #ffffff;
@@ -355,8 +356,6 @@
 }
 
 .language a video {
-  width: 720px;
-  height: 500px;
   -webkit-box-shadow: 0px 0px 4px rgba(255, 0, 0, 0.8);
           box-shadow: 0px 0px 4px rgba(255, 0, 0, 0.8);
 }
