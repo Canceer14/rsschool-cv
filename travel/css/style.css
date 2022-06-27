@@ -1,0 +1,23 @@
+@import url(https://fonts.googleapis.com/css?family=Red+Hat+Text:300,regular,500,600,700,300italic,italic,500italic,600italic,700italic&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Aleo:300,300italic,regular,italic,700,700italic&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Magra:regular,700&display=swap);
+.wrapper {
+  overflow: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.main {
+  flex: 1 1 auto;
+}
+
+[class*=__container] {
+  max-width: 1440px;
+  margin: 0px auto;
+}
+
+body {
+  font-family: aleo;
+  font-size: 20px;
+}
