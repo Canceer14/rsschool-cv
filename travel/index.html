@@ -2,11 +2,11 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/settingdef.css">
 </head>
 
@@ -23,14 +23,57 @@
             <li class="menu__item"><a href="" class="menu__link">Travel Stories</a></li>
           </ul>
         </nav>
-        <div class="header__button">
-          <a href="" class="butoon butoon_gray">Login</a>
-        </div>
+        <button class="header__btn">Login</button>
       </div>
     </header>
-    <main>
+    <main class="main">
+      <section class="preview">
+        <div class="main__container">
+          <div class="hero">
+            <h1 class="hero__title">Explore the beauty of<br> the World</h1>
+            <p class="hero__text">Receive personalized recommendations for countries, hotels, activities and more</p>
+            <forma class="hero__search">
+              <input class="search__input" name="text" placeholder="What would you like to do?" type="search">
+              <button class="search__btn">Start Planning</button>
+            </forma>
+          </div>
+        </div>
+      </section>
+      <section class="steps">
+        <h2 class="steps__title">3 STEPS TO THE PERFECT TRIP</h2>
+        <div class="steps__free-trip">
+          <div class="free-trip__box">
+            <img src="./assets/img/stepVelo.jpg" alt="img" class="free-trip__img">
+            <p class="free-trip__text">Tell us what you want to do</p>
+          </div>
+          <div class="free-trip__box">
+            <img src="./assets/img/stepDates.jpg" alt="img" class="free-trip__img">
+            <p class="free-trip__text">Share us preferable dates </p>
+          </div>
+          <div class="free-trip__box">
+            <img src="./assets/img/stepFlay.jpg" alt="img" class="free-trip__img">
+            <p class="free-trip__text">We will give you recommendations</p>
+          </div>
+        </div>
+      </section>
+      <section class="destinations">
+        <h2 class="slider__title">POPULAR DESTINATIONS</h2>
+        <div class="slider__img">
+          <div class="img__shot"><img src="./assets/img/Rectangle 23.jpg" alt="contry"></div>
+          <div class="img__shot"><img src="./assets/img/Usa.jpg" alt="contry"></div>
+          <div class="img__shot"><img src="./assets/img/Japon.jpg" alt="contry"></div>
+        </div>
+        <ul class="slider__dots">
+          <li class="slider__pointer"></li>
+          <li class="slider__pointer slider__pointer_color"></li>
+          <li class="slider__pointer"></li>
+        </ul>
+        <button class="slider__btn"></button>
+      </section>
     </main>
-    <footer></footer>
+    <footer class="footer">
+      <div class="footer__container">3</div>
+    </footer>
   </div>
   <script src="./app.js"></script>
 </body>
