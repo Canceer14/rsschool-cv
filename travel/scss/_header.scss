@@ -1,0 +1,162 @@
+.header {
+  z-index: 1;
+  height: 90px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background: rgba(242, 120, 92, 0.7);
+  box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
+  &__container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  &__logo {
+  }
+
+  &__menu {
+    display: flex;
+    align-items: center;
+  }
+
+  &__btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 103px;
+    height: 41px;
+    background: #0d606f;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+      0px 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
+    color: #ffffff;
+  }
+}
+.menu {
+  &__list {
+    display: flex;
+  }
+
+  &__item {
+    &:not(:last-child) {
+      padding-right: 42px;
+    }
+  }
+
+  &__link {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Red Hat Text";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+  }
+}
+
+.steps {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+  margin-bottom: 97px;
+
+  &__title {
+    font-family: "Red Hat Text";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 53px;
+    color: #f2785c;
+  }
+
+  &__free-trip {
+    width: 1177px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+  }
+}
+.free-trip {
+  &__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__img {
+    padding-bottom: 30px;
+  }
+
+  &__text {
+    font-family: "Aleo";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0d606f;
+  }
+}
+
+.destinations {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.slider {
+  &__title {
+    margin-bottom: 46px;
+    font-family: "Red Hat Text";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 53px;
+    color: #f2785c;
+  }
+
+  &__img {
+    display: flex;
+    margin-bottom: 24px;
+  }
+
+  &__dots {
+    display: flex;
+  }
+
+  &__pointer {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: rgba(242, 120, 92, 0.5);
+  }
+
+  &__btn {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 228px;
+    height: 59px;
+    background: #0d606f;
+    box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08),
+      0px 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
+    background-image: url(../assets/svg/Group\ 2.svg);
+    background-size: cover; /* Масштабируем фон */
+  }
+}
+
+.img__shot {
+  padding: 0 30px;
+}
+
+.slider__pointer_color {
+  background: #f2785c;
+  margin: 0 10px;
+}
