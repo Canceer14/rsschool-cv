@@ -1,1 +1,1 @@
-# rsschool-cv
+https://Cancceer14.github.io/rsschool-cv/cv
